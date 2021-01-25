@@ -21,13 +21,13 @@
 
             <address class="contacts">
                 <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                <ul class="shedule">
-                    <li class="shedule__title">График работы</li>
-                    <li class="shedule__block">
-                      <p class="shedule__hours">пн-вс: 09:00 - 20:00</p>
-                      <p class="shedule__lunch">Обед: 14:00 - 14:30</p>  
-                    </li>
-                </ul>
+                <div class="shedule">
+                    <div class="shedule__title">График работы</div>
+                   <!-- <ul class="shedule__info">
+                      <li class="shedule__line">пн-вс: 09:00 - 20:00</li>
+                      <li class="shedule__line">Обед: 14:00 - 14:30</li>  
+                    </ul> -->
+                </div>
             </address>
         </header>
 
@@ -43,48 +43,48 @@
 
             <section class="offers">
                 <h2 class="offers__title">Лучшие предложения банка</h2>
-                <ul class="offers__list">
-                    <li class="creditcard basic-card">
-                        <h3 class="creditcard__title">Карта «Базовая»</h3>
-                        <div class="creditcard__card-info">
-                            <div class="creditcard__service">
-                                <div class="creditcard__sum">60 Р.-</div>
-                                <p class="creditcard__desc">Обсуживание карты</p>
+                <ul class="creditcards">
+                    <li class="creditcards__item creditcards__item_basic">
+                        <h3 class="creditcards__title">Карта «Базовая»</h3>
+                        <div class="creditcards__info">
+                            <div class="creditcards__service">
+                                <div class="creditcards__sum">60 Р.-</div>
+                                <p class="creditcards__desc">Обсуживание карты</p>
                             </div>
-                            <div class="creditcard__cashback">
-                                <div class="creditcard__sum">до 4 %</div>
-                                <p class="creditcard__desc">Кэшбек за любимые покупки</p>
+                            <div class="creditcards__cashback">
+                                <div class="creditcards__sum">до 4 %</div>
+                                <p class="creditcards__desc">Кэшбек за любимые покупки</p>
                             </div>
                         </div>
-                        <a href="#" class="creditcard__more main-button">Подробнее</a>
+                        <a href="#" class="creditcards__more main-button">Подробнее</a>
                     </li>
-                    <li class="creditcard optima-card">
-                        <h3 class="creditcard__title">Карта Оптима</h3>
-                        <div class="card-info">
-                            <div class="creditcard__service">
-                                <div class="creditcard__sum">90 Р.-</div>
-                                <p class="creditcard__desc">Обсуживание карты</p>
+                    <li class="creditcards__item creditcards__item_optima">
+                        <h3 class="creditcards__title">Карта Оптима</h3>
+                        <div class="creditcards__info">
+                            <div class="creditcards__service">
+                                <div class="creditcards__sum">90 Р.-</div>
+                                <p class="creditcards__desc">Обсуживание карты</p>
                             </div>
-                            <div class="creditcard__cashback">
-                                <div class="creditcard__sum">до 5 %</div>
-                                <p class="creditcard__desc">Кэшбек за любимые покупки</p>
+                            <div class="creditcards__cashback">
+                                <div class="creditcards__sum">до 5 %</div>
+                                <p class="creditcards__desc">Кэшбек за любимые покупки</p>
                             </div>
                         </div>
-                        <a href="#" class="creditcard__more main-button">Подробнее</a>
+                        <a href="#" class="creditcards__more main-button">Подробнее</a>
                     </li>
-                    <li class="creditcard platinum-card">
-                        <h3 class="creditcard__title">Карта Платинум</h3>
-                        <div class="card-info">
-                            <div class="creditcard__service">
-                                <div class="creditcard__sum">490 Р.-</div>
-                                <p class="creditcard__desc">Обсуживание карты</p>
+                    <li class="creditcards__item creditcards__item_platinum">
+                        <h3 class="creditcards__title">Карта Платинум</h3>
+                        <div class="creditcards__info">
+                            <div class="creditcards__service">
+                                <div class="creditcards__sum">490 Р.-</div>
+                                <p class="creditcards__desc">Обсуживание карты</p>
                             </div>
-                            <div class="creditcard__cashback">
-                                <div class="creditcard__sum">до 6 %</div>
-                                <p class="creditcard__desc">Кэшбек за любимые покупки</p>
+                            <div class="creditcards__cashback">
+                                <div class="creditcards__sum">до 6 %</div>
+                                <p class="creditcards__desc">Кэшбек за любимые покупки</p>
                             </div>
                         </div>
-                        <a href="#" class="creditcard__more main-button">Подробнее</a>
+                        <a href="#" class="creditcards__more main-button">Подробнее</a>
                     </li>
                 </ul>
             </section> <!-- /offers -->
@@ -93,20 +93,20 @@
                 <h2 class="news__title">Новости и акции</h2>
 
                 <ul class="news__list">
-                    <li class="post-preview">
-                        <img src="/img/article1.png" alt="Изображение новости" class="post-preview__img">
-                        <div class="post-preview__text">
-                            <div class="post-preview__date">Декабрь 2019</div>
-                            <h3 class="post-preview__title">Удобное мобильное приложение</h3>
-                            <p class="post-preview__desc">Хороший банк, хорошие условия.</p>
+                    <li class="news__preview">
+                        <img src="/img/article1.png" alt="Изображение новости" class="news__img">
+                        <div class="news__text">
+                            <div class="news__date">Декабрь 2019</div>
+                            <h3 class="news__topic">Удобное мобильное приложение</h3>
+                            <p class="news__desc">Хороший банк, хорошие условия.</p>
                         </div>
                     </li>
-                    <li class="post-preview">
-                        <img src="/img/article2.png" alt="Изображение новости" class="post-preview__img">
-                        <div class="post-preview__text">
-                            <div class="post-preview__date">Декабрь 2019</div>
-                            <h3 class="post-preview__title">Копите на поездку? Откройте счёт!</h3>
-                            <p class="post-preview__desc">Хороший банк, хорошие условия. Откладывайте деньги! 
+                    <li class="news__preview">
+                        <img src="/img/article2.png" alt="Изображение новости" class="news__img">
+                        <div class="news__text">
+                            <div class="news__date">Декабрь 2019</div>
+                            <h3 class="news__topic">Копите на поездку? Откройте счёт!</h3>
+                            <p class="news__desc">Хороший банк, хорошие условия. Откладывайте деньги! 
                                 <br>Наш банк самый лучший банк в мире!</p>
                         </div>
                     </li>
@@ -117,25 +117,25 @@
                         Страница <span class="paginator__current-page">1</span> из <span class="paginator__pages-sum">7</span>
                     </div>
                     <ul class="paginator__list">
-                        <li class="paginator__list-item">1</li>
-                        <li class="paginator__list-item">2</li>
-                        <li class="paginator__list-item">3</li>
-                        <li class="paginator__list-item">4</li>
-                        <li class="paginator__list-item">5</li>
-                        <li class="paginator__list-item">6</li>
-                        <li class="paginator__list-item">7</li>
+                        <li class="paginator__item"><a href="#" class="paginator__link">1</a></li>
+                        <li class="paginator__item"><a href="#" class="paginator__link">2</a></li>
+                        <li class="paginator__item"><a href="#" class="paginator__link">3</a></li>
+                        <li class="paginator__item"><a href="#" class="paginator__link">4</a></li>
+                        <li class="paginator__item"><a href="#" class="paginator__link">5</a></li>
+                        <li class="paginator__item"><a href="#" class="paginator__link">6</a></li>
+                        <li class="paginator__item"><a href="#" class="paginator__link">7</a></li>
                     </ul>
                 </div>
                 
             </section> <!-- /news -->
 
-            <section class="about-us">
+            <section class="about">
 
-                <div class="about-us__content">
-                    <h2 class="about-us__title">О банке</h2>
-                    <p class="about-us__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее 
+                <div class="about__content">
+                    <h2 class="about__title">О банке</h2>
+                    <p class="about__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее 
                         осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. </p>
-                    <a href="#" class="about-us__more main-button">Подробнее</a>    
+                    <a href="#" class="about__more main-button">Подробнее</a>    
                 </div>
 
             </section> <!-- /about -->
