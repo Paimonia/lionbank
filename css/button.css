@@ -1,0 +1,23 @@
+.button {
+    display:inline-block;
+    text-transform: uppercase;
+    padding:0 40px;
+    font-size:14px;
+    line-height:52px;
+    border-radius:3px;
+    color:#fff;
+    box-shadow:0 0 35px 0 rgba(223, 181, 109, 0.35);
+}
+.button_style_def {
+    background:#DFB56D;
+}
+.button_style_def:hover {
+    background:#D3A557;
+}
+
+.button_style_dark {
+    background:#2d2d2d;
+}
+.button_style_dark:hover {
+    background:#DFB56D;
+}

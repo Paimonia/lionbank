@@ -1,0 +1,26 @@
+.footer {
+    width:100%;
+    position:absolute;
+    bottom:0;
+    padding:41px 0 53px 0;
+}
+.footer .contacts {
+    float:right;
+}
+.footer .logo {
+    float:left;
+    margin-top:12px;
+}
+.footer .main-menu {
+    margin:22px 0 0 90px;
+    float:left;
+}
+.contacts__free-call {
+    font-size:11px;
+    line-height:26px;
+    color:#9a9a9a;
+}
+.footer .socials {
+    float:left;
+    margin:9px 0 0 184px;
+}

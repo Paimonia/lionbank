@@ -1,0 +1,8 @@
+.main-menu__item {
+    display:inline-block;
+    margin-right:50px;
+    font-size:14px;
+    line-height:19px;
+}
+.main-menu__list .main-menu__item:last-child {margin-right:0;}
+.main-menu__link:hover, .main-menu__link:active {color:#D3A557;}

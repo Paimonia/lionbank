@@ -1,0 +1,23 @@
+.about {
+    background:url(../img/about/chess.png) left top no-repeat;
+    padding:97px 0 53px 354px;
+    border-bottom:1px solid rgba(255,255,255,0.1);
+    margin-bottom:47px;
+}
+.about_position_main {
+    margin-top:118px;
+}
+
+.about__content {
+    width:785px;
+    padding:70px 165px 70px 80px;
+    background: #202123;
+}
+
+.about__text {
+    font-size:16px;
+    line-height:28px;
+    margin-top:36px;
+}
+
+.about__more {margin-top:50px;}

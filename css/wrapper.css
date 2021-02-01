@@ -1,0 +1,21 @@
+.wrapper_bg_main {
+    background:url(../img/wrapper/lion-header.png) left top no-repeat #29282D;
+    background-size:100% auto;
+}
+.wrapper_bg_main:before {
+    position:absolute;
+    content:'';
+    right:0;
+    bottom:240px;
+    width:0;
+    height:844px;
+    background:url(../img/wrapper/lion-bottom.png) left top no-repeat;
+    background-size:100% auto;
+
+}
+
+.wrapper {
+    padding-bottom:100px;
+    min-height:100vh;
+    position:relative;
+}
