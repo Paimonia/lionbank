@@ -61,7 +61,7 @@
     height:144px;
     background:url(../img/offers/optima.png) center 40px no-repeat;
 }
-.creditcards_style_platinum:after {
+.creditcard_style_platinum:after {
     content:'';
     position:absolute;
     top:0;
