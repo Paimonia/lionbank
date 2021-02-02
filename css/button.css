@@ -3,7 +3,8 @@
     text-transform: uppercase;
     padding:0 40px;
     font-size:14px;
-    line-height:52px;
+    line-height:3.71;
+    font-weight:700;
     border-radius:3px;
     color:#fff;
     box-shadow:0 0 35px 0 rgba(223, 181, 109, 0.35);

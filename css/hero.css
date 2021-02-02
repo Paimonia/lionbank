@@ -1,20 +1,15 @@
 .hero {
-    padding:205px 0 60px 0;
+    padding:155px 0 0 0;
 }
 .hero__content {
     width:505px;
 }
-.hero__title {
-    font-size:58px; 
-    line-height: 64px;
-    font-weight: bold;
-}
 .hero__description {
     margin-top:27px;
     font-size:18px;
-    line-Height:20px;
+    line-Height:1.1;
     color:#d3a557;
 }
 .hero__more {
-    margin-top:43px;
+    margin-top:42px;
 }

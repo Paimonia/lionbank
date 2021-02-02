@@ -2,7 +2,9 @@
 @import "./header.css" screen;
 @import "./hero.css" screen;
 @import "./offers.css" screen;
+@import "./creditcard.css" screen;
 @import "./news.css" screen;
+@import "./preview.css" screen;
 @import "./button.css" screen;
 @import "./paginator.css" screen;
 @import "./about.css" screen;
@@ -12,12 +14,15 @@
 @import "./main-menu.css" screen;
 @import "./contacts.css" screen;
 
+.test {display:block; width:100%; height:4500px; position:absolute; left:0; top:0; 
+    background:url(../img/test.jpg) center top no-repeat; opacity:0.5; z-index:9999999;}
 body {
-    margin:0;
     font-family: 'Open Sans', sans-serif;
     color:#fff;
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing:grayscale;
+    font-size:16px;
+    line-height:1.42;
 }
 
 * {box-sizing:border-box;}
@@ -34,14 +39,20 @@ ul {
 ul li {list-style-type: none;}
 
 h1, h2, h3, h4, h5, h6 {margin:0; font-weight:700;}
+p {margin:0;}
+
+.title_style_first {
+    font-size:58px; 
+    line-height: 1.13;
+    font-weight: 700;
+}
 .title_style_second {
     font-size:36px;
-    line-height:50px;
 }
 
-.clear {clear:both;}
 .container {
     width:1140px; 
     margin-left:auto; 
     margin-right:auto;
+    position:relative;
 }

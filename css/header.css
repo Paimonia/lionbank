@@ -2,17 +2,23 @@
     padding:25px 0;
 }
 
+.header__container {
+    height:50px;
+}
 
-.header .contacts {
-    margin-top:8px;
-    float:right;
+.header__logo, .header__main-menu, .header__contacts {
+    position:absolute;
 }
-.header .logo {
-    float:left;
-    margin-top:8px;
-    
+.header__logo {
+    position:absolute;
+    top:8px;
+    left:0; 
 }
-.header .main-menu {
-    float:left;
-    margin:17px 0 0 90px;
+.header__main-menu {
+    top:16px;
+    left:255px;
+}
+.header__contacts {
+    top:8px;
+    right:0;
 }

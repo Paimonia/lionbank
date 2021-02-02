@@ -1,21 +1,18 @@
 .contacts {
     font-style:normal;
     text-align:right;
-    position:relative;
 }
 .contacts__phone {
     font-size:26px;
-    line-height:26px;
+    line-height:1;
     display:block;
 }
 .contacts__shedule {
     cursor:pointer;
-    display:block;
-    margin-left:89px;
 }
 .contacts__title {
     font-size:13px;
-    line-height:17px;
+    line-height:1.2;
     text-decoration:underline;
 }
 .contacts__shedule:hover .contacts__title {color:#D3A557;}
@@ -23,8 +20,8 @@
 .contacts__dropdown {
     display:none;
     position:absolute;
-    right:1px;
-    bottom:-77px;
+    right:0;
+    bottom:-75px;
     padding-top:23px;
 }
 .contacts__info {
@@ -42,7 +39,7 @@
 }
 .contacts__line {
     font-size:13px;
-    line-height:21px;
+    line-height:1.7;
     color:#1e1f20;
     font-weight:600;
 }

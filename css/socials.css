@@ -10,11 +10,11 @@
     height:36px;
 }
 
-.socials__link_telegram {background:url(../img/socials/social.png) left top no-repeat;}
-.socials__link_vkontakte {background:url(../img/socials/social.png) -46px top no-repeat;}
-.socials__link_facebook {background:url(../img/socials/social.png) -92px top no-repeat;}
-.socials__link_instagram {background:url(../img/socials/social.png) -138px top no-repeat;}
-.socials__link_telegram:hover {background:url(../img/socials/social-hover.png) left top no-repeat;}
-.socials__link_vkontakte:hover {background:url(../img/socials/social-hover.png) -47px top no-repeat;}
-.socials__link_facebook:hover {background:url(../img/socials/social-hover.png) -92px top no-repeat;}
-.socials__link_instagram:hover {background:url(../img/socials/social-hover.png) -138px top no-repeat;}
+.socials__link_telegram {background:url(../img/socials/social.png) left -39px no-repeat;}
+.socials__link_vkontakte {background:url(../img/socials/social.png) -46px -39px no-repeat;}
+.socials__link_facebook {background:url(../img/socials/social.png) -92px -39px no-repeat;}
+.socials__link_instagram {background:url(../img/socials/social.png) -138px -39px no-repeat;}
+.socials__link_telegram:hover {background:url(../img/socials/social.png) left top no-repeat;}
+.socials__link_vkontakte:hover {background:url(../img/socials/social.png) -47px top no-repeat;}
+.socials__link_facebook:hover {background:url(../img/socials/social.png) -92px top no-repeat;}
+.socials__link_instagram:hover {background:url(../img/socials/social.png) -138px top no-repeat;}

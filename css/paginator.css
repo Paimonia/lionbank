@@ -1,16 +1,13 @@
 .paginator {
-    font-size:16px;
-    line-height:30px;
-    margin:0 auto;
-    width:410px;
+    line-height:1.875;
+    text-align:center;
 }
 .paginator__pages {
-    display:inline-block;
-    margin-left:15px;
+    display:inline-block;  
+    margin-right:25px;
 }
 .paginator__list {
     display:inline-block;
-    margin-left:23px;
 }
 .paginator__item {
     display:inline-block;
