@@ -70,7 +70,7 @@
     height:144px;
     background:url(../img/offers/platinum.png) center 40px no-repeat;
 }
-.creditcards_style_basic:before {
+.creditcard_style_basic:before {
      display:block; 
      position:absolute; 
      height:255px; 
@@ -81,7 +81,7 @@
      top:-130px;
      content:"";}
 
-.creditcards_style_optima:before {
+.creditcard_style_optima:before {
      display:block; 
      position:absolute; 
      height:255px; 
@@ -92,7 +92,7 @@
      top:-130px; 
      content:"";}
      
-.creditcards_style_platinum:before {
+.creditcard_style_platinum:before {
      display:block; 
      position:absolute; 
      height:255px; 
