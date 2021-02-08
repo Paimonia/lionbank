@@ -19,6 +19,8 @@
 @import "./blocks/page-top.css" screen;
 @import "./blocks/head-title.css" screen;
 @import "./blocks/breadcrumbs.css" screen;
+@import "./blocks/services.css" screen;
+@import "./blocks/article-preview.css" screen;
+@import "./blocks/partners.css" screen;
 
-.test {display:block; width:100%; height:5500px; position:absolute; left:0; top:0; 
-    background:url(../img/test2.jpg) center top no-repeat; opacity:0.5; z-index:9999999; background-size:1200px auto;}
+

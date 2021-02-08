@@ -1,0 +1,32 @@
+.article-preview {
+    display:flex;
+    padding:40px 30px 22px 30px;
+}
+.article-preview__img {
+    display:block;
+    max-width:100%;
+    
+}
+.article-preview__image {
+width:30%;
+    margin-right: 7%;}
+.article-preview__text {
+    flex:1;
+}
+.article-preview__title {
+    font-size:30px;
+    font-weight:700;
+    color:#202020;
+    line-height:1;
+
+}
+.article-preview__desc {
+    padding-top:40px;
+}
+.article-preview__button {
+    margin-top:20px;
+}
+
+.article-preview:hover {background:#f4f5f5;}
+
+.article-preview:hover .article-preview__button {background:#D3A557;}

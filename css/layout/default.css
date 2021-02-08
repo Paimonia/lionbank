@@ -66,5 +66,10 @@ p {margin:0;}
 
 }
 
-.wrapper__services .container {width:1200px;}
+.container_width_1200 {width:1200px;}
+
+.page-content {
+    background:#fff;
+    color:#818181;
+}
 

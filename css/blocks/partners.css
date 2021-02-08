@@ -1,0 +1,32 @@
+.partners {
+    padding:57px 0 67px 0;
+    margin-top:120px;
+    background: #f4f5f5;
+}
+.partners__title {
+    color:#202020;
+}
+.partners__list {
+    margin-top:45px;
+    display:flex;
+    flex-wrap:wrap;
+}
+.partners__item {
+    margin-left:46px;
+    margin-top:5px;
+    
+}
+
+.partners__item:nth-of-type(4n +1) {margin-left:0;}
+.partner__link {
+    width:230px;
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter:grayscale(100%);
+}
+.partner__link:hover {filter:grayscale(0);}
+.partner__img {
+    display: block;
+    max-width:100%;}

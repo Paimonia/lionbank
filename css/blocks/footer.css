@@ -6,12 +6,16 @@
 
 
 .footer__container {
-    height:162px;
-    border-top:1px solid rgba(255,255,255,0.1);
-    padding:45px 0 65px 0;
     display:flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.footer__container_main {
+    height:162px;
+    border-top:1px solid rgba(255,255,255,0.1);
+    padding:45px 0 65px 0;
+    
 }
 
 
@@ -37,3 +41,6 @@
 .footer__socials {
     margin-right:75px;
 }
+
+.inner-footer {margin-top:auto;}
+.inner-footer .footer__container { padding:45px 0;}
