@@ -1,0 +1,39 @@
+.footer {
+    width:100%;
+    background-color:#29282D;
+    margin-top:auto;
+}
+
+
+.footer__container {
+    height:162px;
+    border-top:1px solid rgba(255,255,255,0.1);
+    padding:45px 0 65px 0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.contacts__free-call {
+    font-size:11px;
+    line-height:2;
+    color:#9a9a9a;
+}
+
+.footer__col {
+    display:flex;
+    align-items: center;
+}
+
+.footer__col_align_right {
+    justify-content: flex-end;
+}
+
+.footer__logo {
+    margin-right:90px;
+}
+
+.footer__socials {
+    margin-right:75px;
+}

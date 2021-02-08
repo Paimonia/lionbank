@@ -1,0 +1,14 @@
+.page-top {
+    min-height:430px;
+    display:flex;
+    flex-direction:column;
+    background: url(../../img/page-top/page-top.png) center top no-repeat #29282D;
+    background-size:100% auto;
+    padding-bottom:26px;
+}
+.page-top__container {
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

@@ -1,0 +1,12 @@
+.offers_position_main {margin-top:185px;}
+.creditcards {
+    display:flex;
+    justify-content: space-between;
+}
+
+.creditcards__item {
+    width: calc(100% / 3 - 18px);
+    margin-right:23px;
+    margin-top:50px;
+}
+.creditcards__item:last-child {margin-right:0;}

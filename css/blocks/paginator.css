@@ -1,0 +1,25 @@
+.paginator {
+    line-height:1.875;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.paginator__pages {
+    margin-right:18px;
+}
+.paginator__list {
+    display:flex;
+    align-items: center;
+}
+
+.paginator__item:last-child {margin:0;}
+.paginator__link {
+    text-align:center;
+    display:block;
+    width:32px;
+    height:32px;
+    border-radius:50%;
+}
+.paginator__link:hover, .paginator__link:active {
+    background-color:#353439;
+}

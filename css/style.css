@@ -1,58 +1,24 @@
-@import "./wrapper.css" screen;
-@import "./header.css" screen;
-@import "./hero.css" screen;
-@import "./offers.css" screen;
-@import "./creditcard.css" screen;
-@import "./news.css" screen;
-@import "./preview.css" screen;
-@import "./button.css" screen;
-@import "./paginator.css" screen;
-@import "./about.css" screen;
-@import "./footer.css" screen;
-@import "./socials.css" screen;
-@import "./normalize.css" screen;
-@import "./main-menu.css" screen;
-@import "./contacts.css" screen;
+@import "./layout/normalize.css" screen;
+@import "./layout/default.css" screen;
 
-.test {display:block; width:100%; height:4500px; position:absolute; left:0; top:0; 
-    background:url(../img/test.jpg) center top no-repeat; opacity:0.5; z-index:9999999;}
-body {
-    font-family: 'Open Sans', sans-serif;
-    color:#fff;
-    -webkit-font-smoothing:antialiased;
-    -moz-osx-font-smoothing:grayscale;
-    font-size:16px;
-    line-height:1.42;
-}
+@import "./blocks/header.css" screen;
+@import "./blocks/main-menu.css" screen;
+@import "./blocks/contacts.css" screen;
+@import "./blocks/footer.css" screen;
+@import "./blocks/socials.css" screen;
+@import "./blocks/button.css" screen;
+@import "./blocks/paginator.css" screen;
 
-* {box-sizing:border-box;}
+@import "./blocks/hero.css" screen;
+@import "./blocks/offers.css" screen;
+@import "./blocks/creditcard.css" screen;
+@import "./blocks/news.css" screen;
+@import "./blocks/preview.css" screen;
+@import "./blocks/about.css" screen;
 
-a {
-    text-decoration:none;
-    color:inherit;
-}
+@import "./blocks/page-top.css" screen;
+@import "./blocks/head-title.css" screen;
+@import "./blocks/breadcrumbs.css" screen;
 
-ul {
-    padding:0;
-    margin:0;
-}
-ul li {list-style-type: none;}
-
-h1, h2, h3, h4, h5, h6 {margin:0; font-weight:700;}
-p {margin:0;}
-
-.title_style_first {
-    font-size:58px; 
-    line-height: 1.13;
-    font-weight: 700;
-}
-.title_style_second {
-    font-size:36px;
-}
-
-.container {
-    width:1140px; 
-    margin-left:auto; 
-    margin-right:auto;
-    position:relative;
-}
+.test {display:block; width:100%; height:5500px; position:absolute; left:0; top:0; 
+    background:url(../img/test2.jpg) center top no-repeat; opacity:0.5; z-index:9999999; background-size:1200px auto;}

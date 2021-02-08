@@ -1,0 +1,19 @@
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    min-height:490px;
+}
+.hero__content {
+    width:43%;
+}
+.hero__description {
+    margin-top:27px;
+    font-size:18px;
+    line-Height:1.1;
+    color:#d3a557;
+}
+.hero__more {
+    margin-top:43px;
+}
