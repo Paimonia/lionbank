@@ -4,12 +4,12 @@
 }
 .article-preview__img {
     display:block;
-    max-width:100%;
+    width:100%;
     
 }
 .article-preview__image {
-width:45%;
-margin-right: 2%;
+width:40.3%;
+margin-right: 5%;
 }
 .article-preview__text {
     flex:1;
@@ -19,14 +19,15 @@ margin-right: 2%;
     
 }
 .article-preview__title {
-    font-size:30px;
+    font-size:36px;
     font-weight:700;
     color:#202020;
-    line-height:1;
+    line-height:1.7;
 
 }
 .article-preview__desc {
-    padding-top:40px;
+    padding-top:50px;
+    line-height:1.5;
 }
 .article-preview__button {
     margin-top:20px;
