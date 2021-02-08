@@ -1,8 +1,9 @@
-
+.socials {margin-top:5px;}
 .socials .socials__item:last-child {margin-right:0;}
 .socials__item {
     display:inline-block;
     margin-right:6px;
+    
 }
 .socials__link {
     display:inline-block;
