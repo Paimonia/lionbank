@@ -1,0 +1,15 @@
+.news_position_main {margin-top:125px;}
+.news__list {
+    margin-top:55px;
+    display:flex;
+    justify-content: space-between;
+}
+.news__preview {
+    width:calc(100% / 2 - 13px);
+    height:394px;
+}
+.news__preview:last-child {margin-right:0;}
+
+.news .paginator {
+    margin-top:50px;
+}

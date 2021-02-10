@@ -1,0 +1,63 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color:#fff;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    font-size:16px;
+    line-height:1.42;
+}
+
+* {box-sizing:border-box; outline:none;}
+
+a {
+    text-decoration:none;
+    color:inherit;
+}
+
+ul {
+    padding:0;
+    margin:0;
+}
+
+ul li {list-style-type: none;}
+
+h1, h2, h3, h4, h5, h6 {margin:0; font-weight:700;}
+
+p {margin:0;}
+
+.title_style_first {
+    font-size:58px; 
+    line-height: 1.13;
+    font-weight: 700;
+}
+
+.title_style_second {
+    font-size:36px;
+}
+
+.container {
+    width:1140px; 
+    margin: 0 auto;
+    position:relative;
+}
+
+.container.container_width_1200 {
+    width:1200px;
+}
+.wrapper {
+    min-height:100vh;
+    position:relative;
+    min-width:1160px;
+    display:flex;
+    flex-direction: column;
+}
+
+.wrapper_bg_main {
+    background: url(../../img/wrapper/lion-header.png) center top no-repeat,
+    url(../../img/wrapper/lion-bottom.png) right 1850px no-repeat, #29282D;
+}
+
+.page-content {
+    color:#818181;
+}
+

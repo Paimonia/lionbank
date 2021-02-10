@@ -1,0 +1,20 @@
+.about__head-wrap {
+    background:url(../../img/about/chess.png) left top no-repeat;
+    padding:97px 0 0 31%;
+}
+.about_position_main {
+    margin-top:145px;
+    padding-bottom:53px;
+}
+
+.about__head {
+    padding:70px 165px 70px 80px;
+    background: #202123;
+}
+
+.about__text {
+    line-height:1.75;
+    margin-top:36px;
+}
+
+.about__more {margin-top:68px;}

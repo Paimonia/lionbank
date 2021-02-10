@@ -1,0 +1,13 @@
+.offers_position_main {margin-top:185px;}
+.creditcards {
+    display:flex;
+    justify-content: space-between;
+}
+
+.offers__creditcards {
+    padding-top:50px;
+}
+
+.creditcards__item {
+    width: calc(100% / 3 - 18px);
+}

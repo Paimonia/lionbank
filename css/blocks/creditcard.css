@@ -1,0 +1,108 @@
+.creditcard {
+    border-radius:5px;
+    padding:144px 20px 26px 20px;
+    overflow:hidden;
+    position:relative;
+    background:#fff;
+    display:flex;
+    flex-direction:column;
+}
+
+.creditcard__title { 
+    padding-top:35px;
+    color:#000;
+    font-weight:700;
+    font-size:24px;
+    line-height:1.3;
+}
+
+.creditcard__content {
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+}
+.creditcard__info {
+    padding-top:20px;
+    display:flex;
+    justify-content: space-between;
+}
+.creditcard__service {
+    width:49.4%;
+}
+
+.creditcard__sum { 
+    color:#000;
+    font-size:36px;
+    line-height:1.25;
+}
+.creditcard__desc { 
+    color:#666;
+    line-height:1.25;
+    padding-top:6px;
+}
+.creditcard__more {
+    display:flex;
+    justify-content: center;
+    margin-top:auto;
+    padding-top:48px;
+}
+
+.creditcard_style_basic:after {
+    content:'';
+    position:absolute;
+    top:0;
+    left:0; 
+    width:100%;
+    height:144px;
+    background:url(../../img/offers/basic.png) center 40px no-repeat;
+}
+.creditcard_style_optima:after {
+    content:'';
+    position:absolute;
+    top:0;
+    left:0; 
+    width:100%;
+    height:144px;
+    background:url(../../img/offers/optima.png) center 40px no-repeat;
+}
+.creditcard_style_platinum:after {
+    content:'';
+    position:absolute;
+    top:0;
+    left:0; 
+    width:100%;
+    height:144px;
+    background:url(../../img/offers/platinum.png) center 40px no-repeat;
+}
+.creditcard_style_basic:before {
+     display:block; 
+     position:absolute; 
+     height:255px; 
+     width:260px; 
+     background:#a7a7a7; 
+     border-radius:50%; 
+     right:-86px; 
+     top:-130px;
+     content:"";}
+
+.creditcard_style_optima:before {
+     display:block; 
+     position:absolute; 
+     height:255px; 
+     width:260px; 
+     background:#596483; 
+     border-radius:50%; 
+     right:-86px; 
+     top:-130px; 
+     content:"";}
+     
+.creditcard_style_platinum:before {
+     display:block; 
+     position:absolute; 
+     height:255px; 
+     width:260px; 
+     background:#988657; 
+     border-radius:50%; 
+     right:-86px; 
+     top:-130px; 
+     content:"";}
