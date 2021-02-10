@@ -16,7 +16,7 @@
     text-decoration:underline;
 }
 .contacts__shedule:hover .contacts__title {color:#D3A557;}
-.contacts__shedule:hover .contacts__dropdown {display:block;}
+.contacts__shedule:hover .contacts__dropdown, .contacts__dropdown:hover {display:block;}
 .contacts__dropdown {
     display:none;
     position:absolute;
