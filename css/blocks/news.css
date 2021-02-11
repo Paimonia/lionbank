@@ -6,7 +6,6 @@
 }
 .news__preview {
     width:calc(100% / 2 - 13px);
-    height:394px;
 }
 .news__preview:last-child {margin-right:0;}
 
