@@ -5,3 +5,4 @@
 }
 .main-menu__list .main-menu__item:last-child {margin-right:0;}
 .main-menu__link:hover, .main-menu__link.active {color:#D3A557;}
+.main-menu__link:hover {transition: 0.5s ease;}

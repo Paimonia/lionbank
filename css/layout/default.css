@@ -35,6 +35,11 @@ p {margin:0;}
     font-size:36px;
 }
 
+.title_style_third {
+    font-size:48px;
+    color:#202020;
+}
+
 .container {
     width:1140px; 
     margin: 0 auto;

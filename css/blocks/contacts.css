@@ -18,6 +18,7 @@
 
 .contacts__dropdown {
     display:none;
+    opacity:0;
     position:absolute;
     right:0;
     bottom:-78px;
@@ -25,8 +26,16 @@
     padding-top:23px;
 }
 
-.contacts__shedule:hover .contacts__title {color:#D3A557;}
-.contacts__shedule:hover .contacts__dropdown, .contacts__dropdown:hover {display:block;}
+.contacts__shedule:hover .contacts__title {color:#D3A557; transition: 0.5s ease;}
+.contacts__shedule:hover .contacts__dropdown {display:block;
+    animation: fade 1s;
+    animation-fill-mode: forwards; }
+
+@keyframes fade {
+
+0% {opacity:0}
+100% {opacity:1;}
+}
 
 .contacts__info {
     padding:13px 18px 13px 18px;

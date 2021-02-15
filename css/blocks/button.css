@@ -8,7 +8,10 @@
     border-radius:3px;
     color:#fff;
     box-shadow:0 0 35px 0 rgba(223, 181, 109, 0.35);
+    cursor:pointer;
+    border:0;
 }
+.button:hover {transition: 0.5s linear;}
 .button_style_def {
     background:#DFB56D;
 }
@@ -21,4 +24,17 @@
 }
 .button_style_dark:hover {
     background:#DFB56D;
+}
+
+.button_style_gray {
+    background:#8E8E8E;
+}
+
+.button_style_gray:hover {
+    background:#2B2B2B;
+}
+
+.button_shadow_none {
+    box-shadow:none;
+
 }

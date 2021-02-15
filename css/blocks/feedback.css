@@ -1,0 +1,15 @@
+.feedback__list {
+    column-count: 2;
+    column-gap: 27px;
+    margin-top:100px;
+}
+
+.feedback__item {
+    display: inline-flex;
+    padding: 50px 30px 30px 30px;
+    margin-bottom:17px;
+}
+
+.feedback__paginator {
+    margin-top:55px;
+}

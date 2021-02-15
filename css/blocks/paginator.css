@@ -26,6 +26,8 @@
     height:30px;
     border-radius:50%;
 }
+
+.paginator__link:hover {transition: 0.3s linear;}
 .paginator__link:hover, .paginator__link.active {
     background-color:#353439;
 }

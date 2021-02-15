@@ -1,0 +1,16 @@
+.tag {
+    color:#303030;
+    background: #E7E7E7;
+    font-size:13px;
+    padding:10px 25px;
+    border-radius:35px;
+}
+
+.tag_bg_green {
+    background:#b9eae4;
+}
+
+/*.tag:hover {
+    background:#b9eae4;
+    transition: 0.3s linear;
+}*/

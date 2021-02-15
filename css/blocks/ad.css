@@ -1,0 +1,32 @@
+
+
+.ad_position_reviews {
+    margin-top: 85px;
+}
+
+.ad_bg_orange {
+    background-color: #E5C288;
+}
+
+.ad__container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 363px;
+    padding:20px;
+}
+
+.ad__img {
+    position: absolute;
+    bottom:0;
+    right:3%;
+    max-width: 50%;
+}
+
+.ad__text {
+    padding-left:0%;
+    font-size: 48px;
+    color:#202020;
+    max-width: 45%;
+    font-weight: 700;
+}

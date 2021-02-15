@@ -24,4 +24,95 @@
 @import "./blocks/article-preview.css" screen;
 @import "./blocks/partners.css" screen;
 
+@import "./blocks/feedback.css" screen;
+@import "./blocks/review.css" screen;
+@import "./blocks/avatar.css" screen;
+@import "./blocks/tag.css" screen;
+@import "./blocks/ad.css" screen;
+@import "./blocks/form.css" screen;
+@import "./blocks/leave-review.css" screen;
+@import "./blocks/controls.css" screen;
 
+/*Welcome*/
+
+.welcome {
+    height:100vh;
+    min-width:1160px;
+    display:flex;
+    flex-direction: column;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100vw;
+    align-items: center;
+    justify-content: center;
+    background: url("../../img/splash.png") center center no-repeat;
+    
+}
+
+@media (orientation: landscape) {
+    .welcome {
+        background-size:100% auto;
+    }
+}
+
+@media (orientation: portrait) {
+    .welcome {
+        background-size:auto 100%;
+    }
+}
+
+
+.welcome__content {
+
+    display: flex;
+    flex-direction: column;
+    animation: bounce 1.5s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+
+}
+
+.welcome__img {
+    margin-bottom:60px;
+}
+
+@keyframes bounce {
+
+    0% {
+        transform: translateY(0);
+    }
+
+    20% {
+        transform: translateY(-30px);
+        animation-timing-function:cubic-bezier(0.175, 0.885, 0.5);
+
+    }
+
+    35% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+
+    }
+
+    65% {
+        transform: translateY(0);
+    }
+
+    75% {
+        transform: translateY(-10px);
+
+    }
+
+    90% {
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}

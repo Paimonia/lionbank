@@ -37,8 +37,8 @@ margin-right: 5%;
 
 .article-preview__send {display:none;}
 
-.article-preview:hover {background:#f4f5f5;}
+.article-preview:hover {background:#f4f5f5; transition: 0.3s linear;}
 
-.article-preview:hover .article-preview__button {background:#D3A557;}
+.article-preview:hover .article-preview__button {background:#D3A557; transition: 0.3s linear;}
 .article-preview__button:hover .article-preview__send {display:block;}
 .article-preview__button:hover .article-preview__more {display:none;}

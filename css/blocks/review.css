@@ -1,0 +1,75 @@
+.review {
+    flex-direction: column;
+    background:#F4F5F5;
+}
+
+.review__head {
+    display: flex;
+    align-items: center;
+    padding-bottom:35px;
+ }
+
+.review__user {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.review__avatar {
+    width:140px;
+    height:140px;
+}
+
+.review__username {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color:#1A1B1E;
+    margin-bottom: 10px;
+}
+
+.review__username:hover {
+    text-decoration: underline;
+    color:#2E77A4;
+    transition: 0.3s linear;
+}
+
+.review__username:after {
+    content: url("../../img/feedback/vk.png");
+    height:30px;
+    margin-left: 7px;
+}
+
+.review__tags {
+    display: flex;
+    align-items: flex-start;
+}
+
+.review__tag {
+    margin-left:15px;
+    margin-bottom: 10px;
+}
+
+.review__tag:first-child {margin-left:0;}
+
+.review__title {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    color:#202020;
+}
+
+.review__text {
+    line-height: 1.7;
+    padding-bottom: 45px;
+
+}
+
+.review__date {
+    color:#1A1B1E;
+    font-size: 14px;
+    line-height: 1.9;
+    font-weight: 700;
+}
