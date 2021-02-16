@@ -4,6 +4,7 @@
     font-size:13px;
     padding:10px 25px;
     border-radius:35px;
+    flex-shrink:0;
 }
 
 .tag_bg_green {

@@ -19,6 +19,7 @@
 .review__avatar {
     width:140px;
     height:140px;
+    flex-shrink:0;
 }
 
 .review__username {
@@ -45,14 +46,16 @@
 .review__tags {
     display: flex;
     align-items: flex-start;
+    flex-wrap:wrap;
+
 }
 
 .review__tag {
-    margin-left:15px;
+    margin-right:15px;
     margin-bottom: 10px;
 }
 
-.review__tag:first-child {margin-left:0;}
+.review__tag:last-child {margin-right:0;}
 
 .review__title {
     font-size: 30px;
