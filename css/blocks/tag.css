@@ -7,6 +7,10 @@
     flex-shrink:0;
 }
 
+.tag_size_form {
+    padding:10px 18px;
+}
+
 .tag_bg_green {
     background:#b9eae4;
 }

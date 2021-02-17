@@ -20,7 +20,7 @@
     background-color: #fff;
     font-size: 18px;
     min-height:65px;
-    padding-left:30px;
+    padding-left:28px;
     padding-right:30px;
     border:1px solid #fff;
 }
@@ -30,7 +30,7 @@
 }
 
 .form__input_textarea {
-    padding-top:30px;
+    padding-top:32px;
     padding-bottom:25px;
     min-height: 232px;
     resize: none;
@@ -47,15 +47,17 @@
 
 .form__controls {
     display: flex;
+    margin-bottom: 22px;
 }
 
 .form__controls-title {
-    padding-top:15px;
-    width:32%;
+    padding-top:13px;
+    width:38.5%;
 }
 
 .form__button {
-    margin-right: 20px;
+    margin-right: 23px;
+    min-width:165px;
 }
 
 .form__button:last-child {

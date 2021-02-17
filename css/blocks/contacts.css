@@ -26,7 +26,7 @@
     padding-top:23px;
 }
 
-.contacts__shedule:hover .contacts__title {color:#D3A557; transition: 0.5s ease;}
+.contacts__shedule:hover .contacts__title {color:#D3A557; transition: opacity 0.3s ease-in, color 0.3s ease-in;}
 .contacts__shedule:hover .contacts__dropdown {display:block;
     animation: fade 1s;
     animation-fill-mode: forwards; }
@@ -51,6 +51,7 @@
     border-bottom: 10px solid #ededed;
 }
 .contacts__line {
+    text-align:left;
     font-size:13px;
     line-height:1.7;
     color:#1e1f20;

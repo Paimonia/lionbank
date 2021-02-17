@@ -13,10 +13,10 @@
     display: flex;
     align-items: center;
     min-height: 363px;
-    padding:20px;
+    padding:20px 0;
 }
 
-.ad__img {
+.ad__pic {
     position: absolute;
     bottom:0;
     right:3%;
@@ -24,7 +24,6 @@
 }
 
 .ad__text {
-    padding-left:0%;
     font-size: 48px;
     color:#202020;
     max-width: 45%;

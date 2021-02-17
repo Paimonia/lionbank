@@ -36,7 +36,4 @@
     justify-content: flex-end; 
 }
 
-.partner__link:hover {filter:grayscale(0); transition: 0.3s linear;}
-.partner__img {
-    display: block;
-    max-width:100%;}
+.partner__link:hover {filter:grayscale(0); transition: filter 0.3s ease-in;}

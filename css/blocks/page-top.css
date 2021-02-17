@@ -15,8 +15,6 @@
 
 .page-top__title {
     flex-grow:1;
-    display:flex;
-    justify-content: center;
-    flex-direction: column;
+    padding-top:50px;
     font-size:72px;
 }

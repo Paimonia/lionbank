@@ -3,10 +3,7 @@
     overflow:hidden;
     position:relative;
 }
-.preview__img {
-    display:block;
-    max-width:100%;
-}
+
 .preview__text {
     position:absolute;
     bottom:0;

@@ -27,7 +27,7 @@
     border-radius:50%;
 }
 
-.paginator__link:hover {transition: 0.3s linear;}
+.paginator__link:hover {transition: background-color 0.3s ease-in;}
 .paginator__link:hover, .paginator__link.active {
     background-color:#353439;
 }
@@ -43,5 +43,5 @@
 
 .paginator_style_light .paginator__link:hover, .paginator_style_light .paginator__link.active {
     color:#fff;
-    background:#353538;
+    background-color:#353538;
 }
