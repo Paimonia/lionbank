@@ -37,7 +37,6 @@
 
 .welcome {
     height:100vh;
-    min-width:1160px;
     display:flex;
     flex-direction: column;
     position:fixed;
@@ -50,11 +49,19 @@
     
 }
 
+
 @media (orientation: landscape) {
+    .welcome {
+        background-size:auto 100%;
+    }
+}
+
+@media (orientation: landscape) and (min-aspect-ratio: 1667 / 889) {
     .welcome {
         background-size:100% auto;
     }
 }
+
 
 @media (orientation: portrait) {
     .welcome {
